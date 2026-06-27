@@ -78,12 +78,9 @@ http://SERVER_IP
 
 ![Website](screenshots/Website.png)
 
+## Project Demo Video
 
-## Demo video 
-
-Watch the Complete project demo here: 
-
-https://drive.google.com/file/d/1ly1ID8R2lUqFnEPmusXaCGbyVX4C_csK/view?usp=drive_link
+[Click here to watch demo](https://github.com/govindhake292-dev/ansible-apache-automation/raw/main/ansible-demo.mp4.mp4)
 
 ## Author
 
