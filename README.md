@@ -59,6 +59,24 @@ http://SERVER_IP
 * Infrastructure Automation
 * DevOps Fundamentals
 
+## Screenshots
+
+### Ansible Connection Test
+
+![Connection](screenshots/Connection.png)
+
+### Playbook Execution
+
+![Playbook](screenshots/playbook.png)
+
+### Apache Service Status
+
+![Apache Status](screenshots/Apachestatus.png)
+
+### Website Output
+
+![Website](screenshots/Website.png)
+
 ## Author
 
 Govind Hake
