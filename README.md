@@ -85,3 +85,71 @@ http://SERVER_IP
 ## Author
 
 Govind Hake
+---
+
+# 🚀 Project Enhancement – Custom Website Deployment
+
+This project has been enhanced by adding automatic deployment of a custom HTML website using the Ansible **copy** module. Along with installing and configuring Apache HTTP Server, the playbook now deploys a custom webpage automatically to the managed server.
+
+## New Feature
+
+- Automated deployment of a custom HTML website
+- Custom webpage copied automatically to the Apache document root
+- Complete web server configuration using Ansible
+- Reduced manual deployment effort
+
+---
+
+## Updated Playbook Task
+
+```yaml
+- name: Copy Custom Website
+  copy:
+    src: files/index.html
+    dest: /var/www/html/index.html
+    owner: root
+    group: root
+    mode: '0644'
+```
+
+---
+
+## Playbook Execution
+
+The playbook was executed successfully.
+
+![Playbook Execution](screenshots/playbook-execution.png)
+
+---
+
+## Custom Website Source Code
+
+![Custom Website Code](screenshots/CustomWebsiteCode.png)
+
+---
+
+## HTML File
+
+![HTML File](screenshots/index-html.png)
+
+---
+
+## Website Output
+
+The deployed website is successfully accessible through the Apache Web Server.
+
+![Website Output](screenshots/custom-website-output.png)
+
+---
+
+## Skills Learned After Enhancement
+
+- Apache Web Server Deployment
+- Custom Website Deployment
+- Ansible Copy Module
+- Infrastructure Automation
+- Configuration Management
+- Linux Administration
+- YAML
+- SSH
+- DevOps Fundamentals
