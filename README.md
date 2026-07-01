@@ -82,9 +82,6 @@ http://SERVER_IP
 
 [Click here to watch demo](https://github.com/govindhake292-dev/ansible-apache-automation/raw/main/ansible-demo.mp4.mp4)
 
-## Author
-
-Govind Hake
 ---
 
 # 🚀 Project Enhancement – Custom Website Deployment
@@ -153,3 +150,6 @@ The deployed website is successfully accessible through the Apache Web Server.
 - YAML
 - SSH
 - DevOps Fundamentals
+## Author
+
+  Govind Hake
